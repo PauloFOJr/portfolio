@@ -2,7 +2,7 @@
 
 Portfólio de **Paulo Júnior**, desenvolvedor Java e Flutter de Cachoeirinha (RS). Página única e estática (HTML, CSS e JavaScript puros), sem build e sem dependências, publicada com GitHub Pages.
 
-🔗 **Ver o site:** https://paulofojr.github.io
+🔗 **Ver o site:** https://paulojr.dev.br
 
 ## 📖 Sobre o projeto
 
@@ -45,16 +45,6 @@ A página apresenta quatro projetos reais, do backend em produção ao app na lo
 - Fontes **Space Grotesk** e **JetBrains Mono**, via Google Fonts
 - Hospedagem estática no **GitHub Pages**
 
-## ▶️ Como rodar localmente
-
-Abrir o `index.html` direto no navegador já funciona. Para testar de forma mais fiel, use um servidor local dentro da pasta do projeto:
-
-```bash
-npx serve
-```
-
-Depois acesse o endereço mostrado (geralmente `http://localhost:3000`).
-
 ## 🎨 Como personalizar
 
 **Cores e temas.** Todas as cores ficam como variáveis no topo do `css/style.css`. O tema escuro está em `:root` e o claro em `:root[data-theme="light"]`. Cada projeto tem a sua cor de destaque (`--c-prof`, `--c-pig`, `--c-tp` e `--c-mp`).
@@ -64,14 +54,6 @@ Depois acesse o endereço mostrado (geralmente `http://localhost:3000`).
 **Adicionar um projeto.** Copie um bloco `<article class="card ...">` dentro da seção de projetos no `index.html`, troque textos e links, coloque a imagem em `assets/` e crie uma classe de cor (por exemplo `.novo{--tone:...}`) no CSS.
 
 **Imagens.** Use `.webp` com proporção 2:1 (1120×560 px), nomes em minúsculas e sem acentos. Defina sempre `width`, `height` e `alt`.
-
-## 🚀 Publicação
-
-1. Crie o repositório `PauloFOJr.github.io`.
-2. Envie `index.html`, `css/`, `js/` e `assets/` para a raiz.
-3. Em *Settings → Pages*, escolha *Deploy from a branch*, branch `main` e pasta `/ (root)`.
-
-O site fica disponível em `https://paulofojr.github.io`. Em outro tipo de hospedagem estática (Netlify, Vercel), basta enviar a pasta mantendo a estrutura.
 
 ## 👤 Autor
 
