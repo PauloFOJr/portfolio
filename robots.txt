@@ -1,0 +1,19 @@
+# robots.txt - https://paulojr.dev.br/
+# Libera buscadores e crawlers de busca com IA
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: https://paulojr.dev.br/sitemap.xml
