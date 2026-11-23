@@ -173,11 +173,36 @@ h1 {
   letter-spacing: -.5px
 }
 
+.h1-nome {
+  display: block;
+  font-weight: 700
+}
+
+.h1-cargo {
+  display: block;
+  margin-top: 8px;
+  font-size: .5em;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--muted)
+}
+
 .lead {
   font-size: 20px;
   color: var(--muted);
   max-width: 640px;
   margin: 24px 0 32px
+}
+
+.slogan {
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--accent);
+  margin: 20px 0 0
+}
+
+.slogan + .lead {
+  margin-top: 8px
 }
 
 .actions {
@@ -459,4 +484,13 @@ footer {
 
 .contact h2 {
   margin-top: 48px
+}
+
+.sr-sep {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
 }
