@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Página não encontrada · Paulo Júnior</title>
+  <meta name="robots" content="noindex">
+  <meta name="color-scheme" content="dark light">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="wrap">
+    <main class="hero">
+      <p class="where">404 · rota não encontrada</p>
+      <h1>Página não encontrada</h1>
+      <p class="lead">O endereço não existe ou mudou de lugar.</p>
+      <div class="actions">
+        <a class="btn primary" href="/">Voltar ao início</a>
+        <a class="btn" href="/#projetos">Ver projetos</a>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
